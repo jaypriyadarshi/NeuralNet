@@ -29,6 +29,7 @@ Loading CIFAR-10 dataset:
 - cd NeuralNet/datasets
 - ./get_datasets.sh
 
+Input:
 - Input is of the form (N, d1, d2, d3, ..., dn) where N is #examples, d1, d2, d3, ..., dn is the dimentionality of the data
 - eg: CIFAR-10 each image has 3 * 32 * 32 dimentions, so for 10000 examples the input takes the form (10000, 3, 32, 32) 
 
