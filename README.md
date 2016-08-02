@@ -28,3 +28,8 @@ Features:
 Loading CIFAR-10 dataset:
 - cd NeuralNet/datasets
 - ./get_datasets.sh
+
+
+Examples:
+- FullyConnected.py demonstrates how to train a Fully Connected Network
+- convNet.py demonstrates how to train a seven layer convNet
