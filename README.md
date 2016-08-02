@@ -27,5 +27,5 @@ Features:
 
 Loading CIFAR-10 dataset:
 Run:
-cd NeuralNet/datasets
-./get_datasets.sh
+$cd NeuralNet/datasets
+$./get_datasets.sh
