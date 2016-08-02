@@ -26,6 +26,5 @@ Features:
   - SVM  
 
 Loading CIFAR-10 dataset:
-- Run:
 - cd NeuralNet/datasets
 - ./get_datasets.sh
