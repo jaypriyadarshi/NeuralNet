@@ -1,6 +1,5 @@
 # NeuralNet
 - A Python library to train and evaluate Neural Networks and Convolutional Neutral Networks
-- Created using the code I wrote for Stanford Course: CS231n: Convolutional Neural Networks for Visual Recognition
 -Requires Numpy
 
 Features:
@@ -36,3 +35,6 @@ Input:
 Examples:
 - FullyConnected.py demonstrates how to train a Fully Connected Network
 - convNet.py demonstrates how to train a seven layer convNet( uses batch normalization and dropout) - achieved 83.6% on CIFAR 10 in 20 epochs
+
+Created using the code I wrote for the Stanford Course: CS231n: Convolutional Neural Networks for Visual Recognition 
+
