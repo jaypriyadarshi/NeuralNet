@@ -29,7 +29,9 @@ Loading CIFAR-10 dataset:
 - cd NeuralNet/datasets
 - ./get_datasets.sh
 
+- Input is of the form (N, d1, d2, d3, ..., dn) where N is #examples, d1, d2, d3, ..., dn is the dimentionality of the data
+- eg: CIFAR-10 each image has 3 * 32 * 32 dimentions, so for 10000 examples the input takes the form (10000, 3, 32, 32) 
 
 Examples:
 - FullyConnected.py demonstrates how to train a Fully Connected Network
-- convNet.py demonstrates how to train a seven layer convNet
+- convNet.py demonstrates how to train a seven layer convNet( uses batch normalization and dropout) - achieved 83.6% on CIFAR 10 in 20 epochs
