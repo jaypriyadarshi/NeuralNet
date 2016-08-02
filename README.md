@@ -29,8 +29,8 @@ Loading CIFAR-10 dataset:
 - ./get_datasets.sh
 
 Data:
-- Data is of the form (N, d1, d2, d3, ..., dn) where N is #examples, d1, d2, d3, ..., dn is the dimentionality of the data
-- Labels have (N) entries, where N is #examples and each entry is the class of the corresponding example 
+- Data is of the form (N, d1, d2, d3, ..., dn) where N is the #examples, d1, d2, d3, ..., dn is the dimentionality of the data
+- Labels have (N) entries, where N is the #examples and each entry is the class of the corresponding example 
 - eg: CIFAR-10 each image has 3 * 32 * 32 dimentions, so for 10000 examples the input takes the form (10000, 3, 32, 32) 
 
 Examples:
