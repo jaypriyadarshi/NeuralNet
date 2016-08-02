@@ -25,7 +25,7 @@ Features:
   - Softmax
   - SVM  
 
--Loading CIFAR-10 dataset:
--Run:
+Loading CIFAR-10 dataset:
+  -Run:
 - cd NeuralNet/datasets
 - ./get_datasets.sh
