@@ -10,7 +10,7 @@ for k, v in data.iteritems():
 
 """
 - Here [100, 100, 100, 100, 100] is the size of each hidden layer and the length of this list determines the size of the network 
-- The FullyConnectedNet class is defined in NeuralNet/classifiers/fc_net.py
+- The FullyConnectedNet class is defined in NeuralNet/classifiers/fc_net.py 
 - weight_Scale is used as standard deviation for random initailization of weights 
 - Read NeuralNet.classifiers.fc_net for more information on the paramters used in the constructor
 - Use 'sgd' for using Stochastic Gradient Descent, 'sgd_momentum' for Stochastic Gradient Descent + momentum update, 'rmsprop' for RMSprop and 'adam' for 'ADAM' optimization algorithm
