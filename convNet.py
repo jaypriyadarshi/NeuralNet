@@ -12,6 +12,7 @@ for k, v in data.iteritems():
 
 """
 - Training a Sever Layer ConvNet with dropout and batchnormalization layers, the class is defined in NeuralNet/classifiers/cnn.py
+- To define your own architecture, you will need to write your own class like the ones in NeuralNet/classifiers/cnn.py
 - weight_Scale is used as standard deviation for random initailization of weights 
 - Read NeuralNet.classifiers.cnn for more information on the architecture and paramters used in the constructor
 - Use 'sgd' for using Stochastic Gradient Descent, 'sgd_momentum' for Stochastic Gradient Descent + momentum update, 'rmsprop' for RMSprop and 'adam' for 'ADAM' optimization algorithm
