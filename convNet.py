@@ -21,7 +21,7 @@ for k, v in data.iteritems():
 model = SevenLayerConvNetNorm(use_batchnorm=True, dropout=0.5, weight_scale=0.001, hidden_dim=1000, reg=0.001)
 
 solver = Solver(model, data,
-                num_epochs=20, batch_size=200,
+                num_epochs=60, batch_size=128,
                 update_rule='adam',
                 optim_config={
                   'learning_rate': 1e-3,
