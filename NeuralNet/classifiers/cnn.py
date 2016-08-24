@@ -468,7 +468,7 @@ class TenLayerConvNet(object):
     self.params['W6'] = np.random.normal(0,weight_scale,(num_filters, num_filters, filter_size, filter_size))
     self.params['b6'] = np.zeros(num_filters)
 
-    #hidden-1 (as we have performed pooling twice)
+    #hidden-1 (as we have performed pooling thrice)
     self.params['W7'] = np.random.normal(0,weight_scale,(H * W * num_filters / 64, hidden_dim))
     self.params['b7'] = np.zeros(hidden_dim)
 
