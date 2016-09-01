@@ -805,4 +805,3 @@
 (Epoch 40 / 40) train acc: 0.946000; val_acc: 0.813000
 Validation set accuracy:  0.842
 Test set accuracy:  0.83
-a
