@@ -11,6 +11,7 @@ data = get_CIFAR10_data()
 for k, v in data.iteritems():
   print '%s: ' % k, v.shape
 
+#load the trained model
 model = pickle.load(open("model", "rb"))
 
 y_test_pred = np.argmax(model.loss(data['X_test']), axis=1)
